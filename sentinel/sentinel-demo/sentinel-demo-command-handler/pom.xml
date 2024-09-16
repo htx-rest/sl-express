@@ -14,10 +14,11 @@
     <artifactId>sentinel-demo-command-handler</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.htx</groupId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
