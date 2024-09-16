@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="front" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="front">
+      <change afterPath="$PROJECT_DIR$/sentinel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/annotation/NoAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/aspect/ValidatedAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/config/CommonFeignErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/config/FeignErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/config/Knife4jConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/enums/BaseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/enums/BaseExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/enums/DispatchMethodEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/enums/IdEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/exception/SLException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/exception/SLWebException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/handler/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/interceptor/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/interceptor/UserFeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-common/src/main/java/com/htx/common/interceptor/UserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-carriage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-dispatch-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-driver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-track/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport-info/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-xxl-job/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,25 +82,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/javaproject/sl-express&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-common/src/main/java/com/htx/common/interceptor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaproject\sl-express" />
+      <recent name="D:\javaproject\sl-express\sl-express-common\src\main\java\com\htx\common\interceptor" />
+      <recent name="D:\javaproject\sl-express\sl-express-common\src\main\java\com\htx\common\handler" />
+      <recent name="D:\javaproject\sl-express\sl-express-common\src\main\java\com\htx\common\exception" />
+      <recent name="D:\javaproject\sl-express\sl-express-common\src\main\java\com\htx\common\enums" />
+      <recent name="D:\javaproject\sl-express\sl-express-common\src\main\java\com\htx\common\entity" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726470812192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="front">
+      <created>1726470882069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726470882069</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
