@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sl.ms.sms.mapper.SmsRecordMapper">
+
+    <insert id="batchInsert" parameterType="java.util.Map">
+        INSERT INTO `sl_sms`.`sms_record` (`id`, `mobile`, `user_id`, `third_channel_code`, `verify_code`,
+                                           `bussiness_type`, `sms_type`, `content_type`, `batch_id`, `created`,
+                                           `updated`, `creater`, `updater`) value
+                                           <foreach collection="entities" item="entity" separator=",">
+                                               (#{entity.id},#{entity.mobile},#{entity.userId},#{entity.thirdChannelCode},
+                                                   #{entity.verifyCode},#{entity.bussinessType},#{entity.smsType},
+                                                   #{entity.contentType},#{entity.batchId},#{entity.created},#{entity.updated}
+                                                   ,#{entity.creater},#{entity.updater})
+                                           </foreach>
+    </insert>
+
+</mapper>
