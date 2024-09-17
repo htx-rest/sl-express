@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="base">
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/sl-express-ms-transport-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/sl-express-ms-transport-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/sl-express-ms-transport-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-transport/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-transport/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="transport" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +52,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-base/sl-express-ms-base-service",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-transport/sl-express-ms-transport-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\sl-express\sl-express-ms-transport\sl-express-ms-transport-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-transport\sl-express-ms-transport-domain" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-transport\sl-express-ms-transport-api" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-base\sl-express-ms-base-service" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-base\sl-express-ms-base-domain" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-base\sl-express-ms-base-api" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-dispatch-service" />
-      <recent name="D:\javaproject\sl-express\sl-express-mq" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -128,7 +122,7 @@
       <workItem from="1726233172807" duration="252000" />
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
-      <workItem from="1726540377003" duration="2168000" />
+      <workItem from="1726540377003" duration="2533000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -207,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726542347797</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="transport">
+      <created>1726542825274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726542825274</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +237,7 @@
     <MESSAGE value="mq" />
     <MESSAGE value="dispatch" />
     <MESSAGE value="base" />
-    <option name="LAST_COMMIT_MESSAGE" value="base" />
+    <MESSAGE value="transport" />
+    <option name="LAST_COMMIT_MESSAGE" value="transport" />
   </component>
 </project>
