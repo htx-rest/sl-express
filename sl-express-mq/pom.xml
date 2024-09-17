@@ -4,14 +4,46 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.htx</groupId>
+        <artifactId>sl-express</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <groupId>com.htx</groupId>
     <artifactId>sl-express-mq</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <sl-express-common.version>1.0-SNAPSHOT</sl-express-common.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.htx</groupId>
+            <artifactId>sl-express-common</artifactId>
+            <version>${sl-express-common.version}</version>
+        </dependency>
+
+        <!--AMQP依赖，包含RabbitMQ-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <!--Spring重试模块-->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

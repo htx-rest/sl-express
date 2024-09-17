@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="gateway" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="xxl-job">
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/config/ErrorMessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/config/MessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/entity/FailMsgEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/exception/MsgException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/job/FailMsgJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/mapper/FailMsgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/service/FailMsgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/service/MQService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/service/impl/FailMsgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-mq/src/main/java/com/sl/mq/service/impl/MQServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-mq/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +66,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-mq",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,11 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\sl-express\sl-express-mq" />
+      <recent name="D:\javaproject\sl-express\sl-express-xxl-job" />
       <recent name="D:\javaproject\sl-express" />
       <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-zuul-gateway" />
       <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-zuul2-gateway" />
-      <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-zookeeper-datasource" />
-      <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-transport-spring-mvc" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -122,7 +136,7 @@
       <workItem from="1726233172807" duration="252000" />
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
-      <workItem from="1726540377003" duration="755000" />
+      <workItem from="1726540377003" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -173,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726541057298</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="xxl-job">
+      <created>1726541421029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726541421029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +219,7 @@
     <MESSAGE value="commom" />
     <MESSAGE value="sentinel" />
     <MESSAGE value="gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="gateway" />
+    <MESSAGE value="xxl-job" />
+    <option name="LAST_COMMIT_MESSAGE" value="xxl-job" />
   </component>
 </project>
