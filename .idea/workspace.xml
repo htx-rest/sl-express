@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="oms">
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/sl-express-ms-sms-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/sl-express-ms-sms-api/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/sl-express-ms-sms-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/sl-express-ms-sms-api/src/main/java/com/sl/ms/sms/SmsFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/sl-express-ms-sms-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-sms/sl-express-ms-sms-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-sms/pom.xml" afterDir="false" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="sms">
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/sl-express-ms-service-scope-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/sl-express-ms-service-scope-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/sl-express-ms-service-scope-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-ms-service-scope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-sms/sl-express-ms-sms-api",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-sms/sl-express-ms-sms-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,11 +69,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\sl-express\sl-express-ms-sms\sl-express-ms-sms-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-sms\sl-express-ms-sms-domain" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-sms\sl-express-ms-sms-api" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-service" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-domain" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-api" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-track\sl-express-ms-track-service" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -148,7 +145,7 @@
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
       <workItem from="1726540377003" duration="6165000" />
-      <workItem from="1726554679459" duration="1310000" />
+      <workItem from="1726554679459" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -269,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726555750711</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="sms">
+      <created>1726556142487</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726556142487</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +307,7 @@
     <MESSAGE value="carriage" />
     <MESSAGE value="track" />
     <MESSAGE value="oms" />
-    <option name="LAST_COMMIT_MESSAGE" value="oms" />
+    <MESSAGE value="sms" />
+    <option name="LAST_COMMIT_MESSAGE" value="sms" />
   </component>
 </project>
