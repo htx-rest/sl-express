@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="web" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="user">
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-api/src/main/java/com/sl/ms/user/api/AddressBookFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-api/src/main/java/com/sl/ms/user/api/MemberFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/src/main/java/com/sl/ms/user/domain/dto/AddressBookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/src/main/java/com/sl/ms/user/domain/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/src/main/java/com/sl/ms/user/domain/enums/AddressBookShowStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/src/main/java/com/sl/ms/user/domain/enums/AddressBookType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-domain/src/main/java/com/sl/ms/user/domain/enums/MemberIdCardVerifyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/controller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/entity/AddressBookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/entity/MemberEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/java/com/sl/ms/user/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/resources/bootstrap-stu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/resources/bootstrap-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-user/sl-express-ms-user-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-ms-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-user/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +87,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-web/sl-express-ms-web-manager",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-user/sl-express-ms-user-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,11 +99,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\sl-express\sl-express-ms-user\sl-express-ms-user-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-user\sl-express-ms-user-domain" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-user\sl-express-ms-user-api" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-web\sl-express-ms-web-manager" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-web\sl-express-ms-web-driver" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-web\sl-express-ms-web-customer" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-web\sl-express-ms-web-courier" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-service-scope\sl-express-ms-service-scope-service" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -140,7 +175,7 @@
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
       <workItem from="1726540377003" duration="6165000" />
-      <workItem from="1726554679459" duration="2973000" />
+      <workItem from="1726554679459" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -319,6 +354,7 @@
     <MESSAGE value="sms" />
     <MESSAGE value="scope" />
     <MESSAGE value="web" />
-    <option name="LAST_COMMIT_MESSAGE" value="web" />
+    <MESSAGE value="user" />
+    <option name="LAST_COMMIT_MESSAGE" value="user" />
   </component>
 </project>
