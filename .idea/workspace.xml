@@ -4,11 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="sms">
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/sl-express-ms-service-scope-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/sl-express-ms-service-scope-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/sl-express-ms-service-scope-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-service-scope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-service-scope/pom.xml" afterDir="false" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="scope">
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/WebCourierApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/config/CourierWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/config/RealNameVerifyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/config/WebFeignErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/constants/CourierConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/AreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/TrackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/enums/SortOrderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/enums/TaskInformationEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/enums/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/AreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/TrackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/AreaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/TrackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/area/AreaSimpleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/login/AccountLoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/login/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/message/MessageQueryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/message/MessageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/message/MessagesHomeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/message/NewNoticeInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/pay/TradeLaunchVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/pay/TradeResponseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/CarriageCalculateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/CarriageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/RealNameVerifyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/RecentSearchVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskBatchTransferVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskBatchVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskIdCardCheckVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskPickupVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskQueryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskSearchVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskSignVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskStatisticsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TaskVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TasksCancelVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/task/TransportOrderPointVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/user/ServiceScopeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/user/UserSimpleInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/java/com/sl/ms/web/courier/vo/user/UsersInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/resources/bootstrap-stu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/resources/bootstrap-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-courier/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-driver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-web/sl-express-ms-web-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-ms-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-web/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +126,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-sms/sl-express-ms-sms-service",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-web/sl-express-ms-web-courier",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,11 +138,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\sl-express\sl-express-ms-web\sl-express-ms-web-courier" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-service-scope\sl-express-ms-service-scope-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-service-scope\sl-express-ms-service-scope-domain" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-service-scope\sl-express-ms-service-scope-api" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-sms\sl-express-ms-sms-service" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-sms\sl-express-ms-sms-domain" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-sms\sl-express-ms-sms-api" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-service" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-domain" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -145,7 +214,7 @@
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
       <workItem from="1726540377003" duration="6165000" />
-      <workItem from="1726554679459" duration="1634000" />
+      <workItem from="1726554679459" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -273,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726556142487</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="scope">
+      <created>1726556548642</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726556548642</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +384,7 @@
     <MESSAGE value="track" />
     <MESSAGE value="oms" />
     <MESSAGE value="sms" />
-    <option name="LAST_COMMIT_MESSAGE" value="sms" />
+    <MESSAGE value="scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="scope" />
   </component>
 </project>
