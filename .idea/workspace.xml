@@ -4,128 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="carriage">
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-api/src/main/java/com/sl/ms/api/CourierFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/src/main/java/com/sl/ms/courier/domain/dto/CourierScopeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/src/main/java/com/sl/ms/courier/domain/dto/TaskPickupDispatchDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/src/main/java/com/sl/ms/courier/domain/enums/PickupDispatchTaskAssignedStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/src/main/java/com/sl/ms/courier/domain/enums/PickupDispatchTaskSignStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/src/main/java/com/sl/ms/courier/domain/enums/PickupDispatchTaskStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-domain/src/main/java/com/sl/ms/courier/domain/enums/PickupDispatchTaskType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/java/com/sl/CourierApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/java/com/sl/ms/courier/config/RedissonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/java/com/sl/ms/courier/controller/CourierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/java/com/sl/ms/courier/service/CourierUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/java/com/sl/ms/courier/service/impl/CourierUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/resources/bootstrap-stu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/resources/bootstrap-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-courier/sl-express-ms-courier-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-track/sl-express-ms-track-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-track/sl-express-ms-track-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-track/sl-express-ms-track-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/JsapiPayFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/NativePayFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/RefundRecordFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/TradingFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/fallback/JsapiPayFeignFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/fallback/NativePayFeignFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/fallback/RefundRecordFeignFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-api/src/main/java/com/sl/ms/trade/api/fallback/TradingFeignFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/PayChannelDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/RefundRecordDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/TradingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/request/JsapiPayDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/request/NativePayDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/response/JsapiPayResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/domain/response/NativePayResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/enums/PayChannelEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/enums/RefundStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-domain/src/main/java/com/sl/ms/trade/enums/TradingStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/TradeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/config/QRCodeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/config/RedissonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/config/XxlJobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/constant/TradingCacheConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/constant/TradingConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/BasicPayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/JsapiPayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/NativePayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/NotifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/PayChannelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/RefundRecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/controller/TradingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/entity/PayChannelEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/entity/RefundRecordEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/entity/TradingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/enums/TradingEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/BasicPayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/BeforePayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/HandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/JsapiPayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/NativePayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/PayChannelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/alipay/AliBasicPayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/alipay/AliNativePayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/alipay/AlipayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/impl/BeforePayHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/wechat/WeChatBasicPayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/wechat/WechatJsapiPayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/wechat/WechatNativePayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/wechat/WechatPayHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/wechat/bean/JsapiPayParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/handler/wechat/response/WeChatResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/job/TradeJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/mapper/PayChannelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/mapper/RefundRecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/mapper/TradingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/BasicPayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/JsapiPayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/NativePayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/NotifyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/PayChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/QRCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/RefundRecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/TradingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/BasicPayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/JsapiPayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/NativePayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/NotifyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/PayChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/QRCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/RefundRecordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/service/impl/TradingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/java/com/sl/ms/trade/util/WeiXinAesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/bootstrap-stu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/bootstrap-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/logos/alipay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-trade/sl-express-ms-trade-service/src/main/resources/logos/wechat.png" afterDir="false" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="track">
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-api/src/main/java/com/sl/ms/oms/api/CargoFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-api/src/main/java/com/sl/ms/oms/api/GoodFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-api/src/main/java/com/sl/ms/oms/api/OrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/MailingSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderCargoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderCarriageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderLocationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderPickupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/dto/OrderStatusCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/enums/MailType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/enums/OrderPaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/enums/OrderPaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/enums/OrderPickupType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-domain/src/main/java/com/sl/ms/oms/enums/OrderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/OmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/controller/CargoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/controller/HotGoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/entity/HotGoodEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/entity/OrderCargoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/entity/OrderLocationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/mapper/HotGoodMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/mapper/OrderCargoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/mapper/OrderLocationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/mq/MQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/CrudOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/HotGoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/OrderCargoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/OrderLocationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/impl/CrudOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/impl/HotGoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/impl/OrderCargoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/impl/OrderLocationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/java/com/sl/ms/oms/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/resources/bootstrap-stu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/resources/bootstrap-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-oms/sl-express-ms-oms-service/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-courier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-courier/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-track/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-track/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl-express-ms-trade/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-trade/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-ms-oms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-oms/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,31 +101,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/javaproject/sl-express/sl-express-ms-trade/sl-express-ms-trade-service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-oms/sl-express-ms-oms-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaproject\sl-express\sl-express-ms-trade\sl-express-ms-trade-service" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-trade\sl-express-ms-trade-domain" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-trade\sl-express-ms-trade-api" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-courier\sl-express-ms-courier-service" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-courier\sl-express-ms-courier-domain" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-domain" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-oms\sl-express-ms-oms-api" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-track\sl-express-ms-track-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-track\sl-express-ms-track-domain" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -262,7 +197,7 @@
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
       <workItem from="1726540377003" duration="6165000" />
-      <workItem from="1726554679459" duration="311000" />
+      <workItem from="1726554679459" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -369,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726543795443</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="track">
+      <created>1726555297678</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726555297678</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +343,7 @@
     <MESSAGE value="transport" />
     <MESSAGE value="work" />
     <MESSAGE value="carriage" />
-    <option name="LAST_COMMIT_MESSAGE" value="carriage" />
+    <MESSAGE value="track" />
+    <option name="LAST_COMMIT_MESSAGE" value="track" />
   </component>
 </project>
