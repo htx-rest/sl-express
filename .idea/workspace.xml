@@ -4,7 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="transport" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="work">
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-api/src/main/java/com/sl/ms/work/api/PickupDispatchTaskFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-api/src/main/java/com/sl/ms/work/api/TransportOrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-api/src/main/java/com/sl/ms/work/api/TransportTaskFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/CourierTaskCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/PickupDispatchTaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/TaskTransportUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/TransportOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/TransportTaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/request/PickupDispatchTaskPageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/request/TransportOrderQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/request/TransportTaskCompleteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/request/TransportTaskDelayDeliveryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/request/TransportTaskPageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/request/TransportTaskStartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/response/OrderToTransportOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/response/TransportOrderStatusCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/response/TransportTaskMonthlyDistanceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/dto/response/TransportTaskStatusCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/WorkExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/driverjob/DriverJobStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/PickupDispatchTaskAssignedStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/PickupDispatchTaskCancelReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/PickupDispatchTaskIsDeleted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/PickupDispatchTaskSignStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/PickupDispatchTaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/PickupDispatchTaskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/pickupDispatchtask/SignRecipientEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/transportorder/TransportOrderSchedulingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/transportorder/TransportOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/transporttask/TransportTaskAssignedStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/transporttask/TransportTaskLoadingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-domain/src/main/java/com/sl/ms/work/domain/enums/transporttask/TransportTaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/WorkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/config/RedissonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/controller/PickupDispatchTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/controller/TransportOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/controller/TransportTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/entity/PickupDispatchTaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/entity/TransportOrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/entity/TransportOrderTaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/entity/TransportTaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/mapper/TaskPickupDispatchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/mapper/TransportOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/mapper/TransportOrderTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/mapper/TransportTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/mq/CourierMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/mq/TransportTaskMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/PickupDispatchTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/TransportOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/TransportOrderTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/TransportTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/impl/PickupDispatchTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/impl/TransportOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/impl/TransportOrderTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/java/com/sl/ms/work/service/impl/TransportTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/bootstrap-stu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/bootstrap-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/mapper/TaskPickupDispatchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/mapper/TransportOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-work/sl-express-ms-work-service/src/main/resources/mapper/TransportTaskMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-ms-work/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-work/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +126,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-transport/sl-express-ms-transport-service",
+    "last_opened_file_path": "D:/javaproject/sl-express/sl-express-ms-work/sl-express-ms-work-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,11 +138,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\sl-express\sl-express-ms-work\sl-express-ms-work-service" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-work\sl-express-ms-work-domain" />
+      <recent name="D:\javaproject\sl-express\sl-express-ms-work\sl-express-ms-work-api" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-transport\sl-express-ms-transport-service" />
       <recent name="D:\javaproject\sl-express\sl-express-ms-transport\sl-express-ms-transport-domain" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-transport\sl-express-ms-transport-api" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-base\sl-express-ms-base-service" />
-      <recent name="D:\javaproject\sl-express\sl-express-ms-base\sl-express-ms-base-domain" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
@@ -122,7 +196,7 @@
       <workItem from="1726233172807" duration="252000" />
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
-      <workItem from="1726540377003" duration="2533000" />
+      <workItem from="1726540377003" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -238,6 +312,7 @@
     <MESSAGE value="dispatch" />
     <MESSAGE value="base" />
     <MESSAGE value="transport" />
-    <option name="LAST_COMMIT_MESSAGE" value="transport" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
 </project>
