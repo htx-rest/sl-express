@@ -5,184 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="sentinel">
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apache-httpclient/src/main/java/com/alibaba/csp/sentinel/demo/apache/httpclient/ApacheHttpClientDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apache-httpclient/src/main/java/com/alibaba/csp/sentinel/demo/apache/httpclient/controller/ApacheHttpClientTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apache-httpclient/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apollo-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/apollo/ApolloDataSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apollo-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/apollo/FlowQpsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apollo-datasource/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/AsyncEntryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/authority/AuthorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/degrade/ExceptionRatioCircuitBreakerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/degrade/SlowRatioCircuitBreakerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/flow/FlowQpsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/flow/FlowThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/flow/PaceFlowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/flow/WarmUpFlowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/flow/WarmUpRateLimiterFlowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/src/main/java/com/alibaba/csp/sentinel/demo/system/SystemGuardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/DemoConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/app/ClusterDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/app/config/AopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/app/controller/ClusterDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/app/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/entity/ClusterGroupEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java/com/alibaba/csp/sentinel/demo/cluster/init/DemoClusterInitFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone/src/main/java/com/alibaba/csp/sentinel/demo/cluster/ClusterServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone/src/main/java/com/alibaba/csp/sentinel/demo/cluster/DemoConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone/src/main/java/com/alibaba/csp/sentinel/demo/cluster/init/DemoClusterServerInitFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-command-handler/src/main/java/com/alibaba/csp/sentinel/demo/commandhandler/CommandDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-command-handler/src/main/java/com/alibaba/csp/sentinel/demo/commandhandler/EchoCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-command-handler/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.command.CommandHandler" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/FooService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/consumer/ConsumerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/consumer/FooServiceConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/FooConsumerBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/FooProviderBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/FooServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/ProviderConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/FooConsumerBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/FooProviderBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/FooServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/ProviderConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/java/com/alibaba/csp/sentinel/demo/file/rule/FileDataSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/java/com/alibaba/csp/sentinel/demo/file/rule/FileDataSourceInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/java/com/alibaba/csp/sentinel/demo/file/rule/FlowQpsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/java/com/alibaba/csp/sentinel/demo/file/rule/JarFileDataSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/resources/DegradeRule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/resources/FlowRule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/resources/SystemRule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-etcd-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/etcd/EtcdConfigSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-etcd-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/etcd/EtcdDataSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/java/com/alibaba/csp/sentinel/demo/jaxrs/CustomExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/java/com/alibaba/csp/sentinel/demo/jaxrs/HelloEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/java/com/alibaba/csp/sentinel/demo/jaxrs/HelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/java/com/alibaba/csp/sentinel/demo/jaxrs/JaxRsClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/java/com/alibaba/csp/sentinel/demo/jaxrs/JaxRsDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/java/com/alibaba/csp/sentinel/demo/jaxrs/SentinelJaxRsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-log-logback/src/main/java/com/alibaba/csp/sentinel/demo/log/logback/CommandCenterLogLoggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-log-logback/src/main/java/com/alibaba/csp/sentinel/demo/log/logback/RecordLogLoggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-log-logback/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.log.Logger" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-log-logback/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/src/main/java/com/alibaba/csp/sentinel/demo/motan/SentinelMotanConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/src/main/java/com/alibaba/csp/sentinel/demo/motan/SentinelMotanProviderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/src/main/java/com/alibaba/csp/sentinel/demo/motan/service/MotanDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/src/main/java/com/alibaba/csp/sentinel/demo/motan/service/impl/MotanDemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/src/main/resources/sentinel.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-nacos-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/nacos/FlowQpsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-nacos-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/nacos/NacosConfigSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-nacos-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/nacos/NacosDataSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-okhttp/src/main/java/com/alibaba/csp/sentinel/demo/okhttp/OkHttpDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-okhttp/src/main/java/com/alibaba/csp/sentinel/demo/okhttp/controller/OkHttpTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-okhttp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-parameter-flow-control/src/main/java/com/alibaba/csp/sentinel/demo/flow/param/ParamFlowQpsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-parameter-flow-control/src/main/java/com/alibaba/csp/sentinel/demo/flow/param/ParamFlowQpsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/build-native.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/docker/Dockerfile.jvm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/docker/Dockerfile.native" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/java/com/alibaba/csp/sentinel/demo/quarkus/AppLifecycleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/java/com/alibaba/csp/sentinel/demo/quarkus/CustomExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/java/com/alibaba/csp/sentinel/demo/quarkus/GreetingFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/java/com/alibaba/csp/sentinel/demo/quarkus/GreetingResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/java/com/alibaba/csp/sentinel/demo/quarkus/GreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/resources/META-INF/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-rocketmq/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-rocketmq/src/main/java/com/alibaba/csp/sentinel/demo/rocketmq/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-rocketmq/src/main/java/com/alibaba/csp/sentinel/demo/rocketmq/PullConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-rocketmq/src/main/java/com/alibaba/csp/sentinel/demo/rocketmq/SyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slot-spi/src/main/java/com/alibaba/csp/sentinel/demo/slotchain/DemoDegradeRuleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slot-spi/src/main/java/com/alibaba/csp/sentinel/demo/slotchain/DemoFlowRuleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slot-spi/src/main/java/com/alibaba/csp/sentinel/demo/slotchain/DemoSlotChainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slot-spi/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slotchain-spi/src/main/java/com/alibaba/csp/sentinel/demo/slot/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slotchain-spi/src/main/java/com/alibaba/csp/sentinel/demo/slot/DemoSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slotchain-spi/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.ProcessorSlot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/src/main/java/com/alibaba/csp/sentinel/demo/sofa/rpc/DemoConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/src/main/java/com/alibaba/csp/sentinel/demo/sofa/rpc/DemoProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/src/main/java/com/alibaba/csp/sentinel/demo/sofa/rpc/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/src/main/java/com/alibaba/csp/sentinel/demo/sofa/rpc/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/src/main/resources/sofa-rpc/rpc-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-cloud-gateway/src/main/java/com/alibaba/csp/sentinel/demo/spring/sc/gateway/GatewayConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-cloud-gateway/src/main/java/com/alibaba/csp/sentinel/demo/spring/sc/gateway/GatewayDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-cloud-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/WebFluxDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/config/WebFluxConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/controller/BazController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/controller/FooController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/service/BazService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java/com/alibaba/csp/sentinel/demo/spring/webflux/service/FooService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/java/com/alibaba/csp/sentinel/demo/spring/webmvc/WebMvcDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/java/com/alibaba/csp/sentinel/demo/spring/webmvc/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/java/com/alibaba/csp/sentinel/demo/spring/webmvc/config/SentinelSpringMvcBlockHandlerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/java/com/alibaba/csp/sentinel/demo/spring/webmvc/controller/WebMvcTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/java/com/alibaba/csp/sentinel/demo/spring/webmvc/vo/ResultWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-transport-spring-mvc/src/main/java/com/alibaba/csp/sentinel/demo/transport/springmvc/TransportSpringMvcDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-transport-spring-mvc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zookeeper-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/zookeeper/ZookeeperConfigSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zookeeper-datasource/src/main/java/com/alibaba/csp/sentinel/demo/datasource/zookeeper/ZookeeperDataSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul/gateway/GatewayRuleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul/gateway/ZuulConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul/gateway/ZuulGatewayDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/FiltersRegisteringService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/GatewayRuleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/SampleServerStartup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/ZuulBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/ZuulClasspathFiltersModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/ZuulSampleModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/filters/NotFoundEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul2/gateway/filters/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/constant/JwtClaimsConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/filter/CourierTokenGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/filter/CustomerTokenGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/filter/DriverTokenGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/filter/ManagerTokenGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/filter/TokenGatewayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/properties/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/java/com/sl/gateway/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/resources/auth/pub.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/resources/bootstrap-stu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/resources/bootstrap-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apache-httpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apache-httpclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apollo-datasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-apollo-datasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-cluster/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-command-handler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-command-handler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dubbo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-etcd-datasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-etcd-datasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-jax-rs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-log-logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-log-logback/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-motan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-nacos-datasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-nacos-datasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-okhttp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-okhttp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-parameter-flow-control/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-parameter-flow-control/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-rocketmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-rocketmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slot-spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slot-spi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slotchain-spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-slotchain-spi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-sofa-rpc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-cloud-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webflux/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-spring-webmvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-transport-spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-transport-spring-mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zookeeper-datasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zookeeper-datasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-zuul2-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,24 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/javaproject/sl-express/sentinel/sentinel-demo/sentinel-demo-zuul-gateway",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javaproject/sl-express/sl-express-gateway&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-zuul-gateway" />
@@ -249,6 +93,46 @@
       <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-transport-spring-mvc" />
       <recent name="D:\javaproject\sl-express\sentinel\sentinel-demo\sentinel-demo-spring-webmvc" />
     </key>
+  </component>
+  <component name="RunManager" selected="Quarkus.sentinel-demo-quarkus">
+    <configuration name="sentinel-demo-quarkus" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="sentinel-demo-quarkus" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/sentinel/sentinel-demo/sentinel-demo-quarkus" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sentinel-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.csp.sentinel.dashboard.DashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -260,6 +144,8 @@
       <updated>1726233171480</updated>
       <workItem from="1726233172807" duration="252000" />
       <workItem from="1726467178148" duration="1675000" />
+      <workItem from="1726540263235" duration="89000" />
+      <workItem from="1726540377003" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -296,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726481268024</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sentinel">
+      <created>1726482982111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726482982111</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
