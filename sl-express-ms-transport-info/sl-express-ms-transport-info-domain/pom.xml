@@ -6,19 +6,24 @@
 
     <parent>
         <groupId>com.htx</groupId>
-        <artifactId>sl-express</artifactId>
+        <artifactId>sl-express-ms-transport-info</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.htx</groupId>
-    <artifactId>sl-express-ms-transport-info</artifactId>
+    <artifactId>sl-express-ms-transport-info-domain</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>sl-express-ms-transport-info-api</module>
-        <module>sl-express-ms-transport-info-domain</module>
-        <module>sl-express-ms-transport-info-service</module>
-    </modules>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
