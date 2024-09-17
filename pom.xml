@@ -27,7 +27,6 @@
     <module>sl-express-mq</module>
     <module>sl-express-gateway</module>
     <module>sl-express-common</module>
-    <module>sentinel</module>
   </modules>
 
   <properties>
