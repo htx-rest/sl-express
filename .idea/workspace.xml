@@ -4,171 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="dispatch">
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/AreaFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/AuthFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/GoodsTypeFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/MQFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/MessageFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/WorkPatternFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/common/WorkSchedulingFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/trips/TripsFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/truck/TruckFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/truck/TruckLicenseFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/truck/TruckPlanFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/truck/TruckReturnRegisterFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/truck/TruckTypeFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-api/src/main/java/com/sl/ms/base/api/user/DriverFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/AreaDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/GoodsTypeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/LatestMessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/MessageAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/MessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/MessageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkPatternAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkPatternDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkPatternQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkPatternUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkSchedulingAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkSchedulingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkSchedulingQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/base/WorkSchedulingUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/constants/MessageConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/MessageBussinessTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/MessageContentTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/StatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckAccidentTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckBreakRulesTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckFaultTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckPlanScheduleStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckPlanStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckRunStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckTripsPeriodEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/TruckWorkStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/WorkPatternEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/WorkStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/enums/WorkUserTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/OrganIdsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TransportTripsTruckDriverDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckInsuranceDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckLicenseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckPlanDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckReturnRegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckReturnRegisterListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckReturnRegisterPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckTripsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/truck/TruckTypeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/user/TruckDriverDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-domain/src/main/java/com/sl/ms/base/domain/user/TruckDriverLicenseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/BaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/config/XxlJobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/AreaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/GoodsTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/MQController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/WorkPatternController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/base/WorkSchedulingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/truck/TruckController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/truck/TruckLicenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/truck/TruckPlanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/truck/TruckReturnRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/truck/TruckTripsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/truck/TruckTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/controller/user/TruckDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/base/AreaEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/base/GoodsTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/base/MessageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/base/WorkHistorySchedulingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/base/WorkPatternEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/base/WorkSchedulingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TransportTripsTruckDriverEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckLicenseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckPlanEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckReturnRegisterEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckTripsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/truck/TruckTypeGoodsTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/user/TruckDriverEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/entity/user/TruckDriverLicenseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/job/HistoryScheduleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/base/AreaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/base/GoodsTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/base/MessageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/base/WorkHistorySchedulingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/base/WorkPatternMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/base/WorkSchedulingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TransportTripsTruckDriverMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckLicenseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckPlanMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckReturnRegisterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckTripsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckTypeGoodsTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/truck/TruckTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/user/TruckDriverLicenseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mapper/user/TruckDriverMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mq/AuthUserMQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/mq/TruckPlanScheduledMQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/AreaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/GoodsTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/WorkHistorySchedulingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/WorkPatternService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/WorkSchedulingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/AreaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/GoodsTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/MessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/WorkHistorySchedulingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/WorkPatternServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/base/impl/WorkSchedulingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TransportTripsTruckDriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckLicenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckPlanCreateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckPlanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckReturnRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckTripsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckTypeGoodsTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/TruckTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TransportTripsTruckDriverServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckLicenseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckPlanCreateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckPlanServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckReturnRegisterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckTripsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckTypeGoodsTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/truck/impl/TruckTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/user/TruckDriverLicenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/user/TruckDriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/user/impl/TruckDriverLicenseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/service/user/impl/TruckDriverServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/utils/WorkPatternUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/java/com/sl/ms/base/utils/WorkSchedulingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/bootstrap-stu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/bootstrap-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/mapper/base/GoodTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sl-express-ms-base/sl-express-ms-base-service/src/main/resources/mapper/base/WorkSchedulingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0c366198-f05d-4d0e-9f5d-19dfb3529501" name="Changes" comment="base">
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/sl-express-ms-transport-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/sl-express-ms-transport-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-express-ms-transport/sl-express-ms-transport-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sl-express-ms-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl-express-ms-transport/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sl-express-ms-transport/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +128,7 @@
       <workItem from="1726233172807" duration="252000" />
       <workItem from="1726467178148" duration="1675000" />
       <workItem from="1726540263235" duration="89000" />
-      <workItem from="1726540377003" duration="1851000" />
+      <workItem from="1726540377003" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="front">
       <created>1726470812192</created>
@@ -359,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726541781098</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="base">
+      <created>1726542347797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726542347797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +235,7 @@
     <MESSAGE value="xxl-job" />
     <MESSAGE value="mq" />
     <MESSAGE value="dispatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="dispatch" />
+    <MESSAGE value="base" />
+    <option name="LAST_COMMIT_MESSAGE" value="base" />
   </component>
 </project>
